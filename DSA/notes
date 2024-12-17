@@ -1,0 +1,15 @@
+q1. what is an array?
+array are homogenous sequence of memory location used to store data. 
+
+q2. what is linked list?
+it is a collection of nodes.
+     1. singly LL
+     2. doubly LL
+     3. circular LL
+
+
+->> Implementation of stack using list is costly beacuse it is dynamic in nature , it has no fixed 
+->> if you directly implement it will be costly that is why you should consider max_size for list.
+
+->> also their is a deque() from collections can be used
+

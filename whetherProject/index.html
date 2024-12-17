@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic weather</title>
+    <style></style>
+</head>
+
+<body>
+
+    <!-- Reletive path  -> it is folder specific which is nearer to working folder . that is why we use "/" and "." to get src --> 
+    <img src="images/peacock-1169961.webp" alt="" width="300px">
+    <img src="./images/peacock-1169961.webp" alt="">
+    <!-- above both way's to get src is correct  -->
+
+    <img src="paris-1213603.webp" alt="" width="100px">
+
+    <img src="../dynamicWeatherApp/weathericon.png" alt="">
+
+
+    <!-- Absolute path -> it is the path which is not easy to get it. The src which is very far from working folder that is why we use full path -->
+    <img src="https://images.freeimages.com/images/large-previews/bc4/curious-bird-1-1374322.jpg?fmt=webp&w=500" alt="" width="300px">
+
+    <img src="D:\ALL DATA\PICTURES\2203051050296.jpg" alt="">
+
+    <div class="weather-card">
+        <form id="form">
+            <label>Enter Longitude</label>
+            <input type="text" name="long" />
+            <label>Enter Latitude</label>
+            <input type="text" name="lat" />
+
+            <button>Get Status</button>
+        </form>
+        <div class="weather-content">
+            <h1>Today's weather </h1>
+            <p>Weather App</p>
+
+            <h1>Current Temperature</h1>
+            <p class="tempr"></p>
+            <br />
+            <br />
+            <h1>Status</h1>
+            <p class="status">Sunny</p>
+        </div>
+        <div class="weather-image"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

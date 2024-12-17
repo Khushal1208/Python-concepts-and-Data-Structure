@@ -1,0 +1,17 @@
+body {
+  color: black;
+  background-color: antiquewhite;
+}
+.weather-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-content {
+  width: 30rem;
+}
+.weather-image {
+  width: 40rem;
+  height: 40rem;
+  background-repeat: no-repeat;
+}
